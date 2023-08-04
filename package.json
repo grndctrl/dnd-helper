@@ -9,17 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.0.10",
     "@types/node": "20.4.2",
     "@types/react": "18.2.15",
     "@types/react-dom": "18.2.7",
     "autoprefixer": "10.4.14",
+    "classnames": "^2.3.2",
+    "dnd5-srd": "^1.0.0",
+    "dnd5e": "^1.1.1",
     "eslint": "8.45.0",
     "eslint-config-next": "13.4.10",
+    "fuse.js": "^6.6.2",
     "next": "13.4.10",
     "postcss": "8.4.26",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
-    "typescript": "5.1.6"
+    "typescript": "5.1.6",
+    "zustand": "^4.3.9"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.195",
+    "lodash": "^4.17.21"
   }
 }
